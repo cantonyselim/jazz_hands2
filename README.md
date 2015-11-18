@@ -1,7 +1,7 @@
 # JazzHands2
 
-JazzHands2 aims to be the successor of the abandoned [JazzHand2](https://github.com/nixme/jazz_hands)
-
+This ia  fork of JazzHands2 which aims to be the successor of the abandoned [JazzHand2](https://github.com/nixme/jazz_hands)
+This fork starts the console with Hirb disabled.
 The dependencies has been updated, this only supports Ruby 2+.
 
 Some of the codes comes from the [new_jazz_hands](https://github.com/billywatson/jazz_hands) gem, but without
@@ -38,8 +38,9 @@ And then execute:
 
     $ bundle
 
-From now on, firing up a `rails console` will require all the gems above and turns on `Hirb`. You can disable `Hirb`
-if you want with a `Hirb.disable`.
+From now on, firing up a `rails console` will require all the gems above except for `Hirb`. You can enable `Hirb`
+if you want with a `Hirb.enable`.
+
 
 In my experience is much better to turn off it a couple of times instead of needing to turn on it all the times except a couple.
 
