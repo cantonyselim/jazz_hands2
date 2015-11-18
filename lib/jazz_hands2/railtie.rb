@@ -25,7 +25,7 @@ module JazzHands2
             output.puts value
           end
         end
-        Hirb.enable
+        Hirb.disable
 
         color = -> { Pry.color && JazzHands2.colored_prompt }
         red  = ->(text) { color[] ? "\001\e[0;31m\002#{text}\001\e[0m\002" : text.to_s }
